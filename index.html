@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+    <label for="number-form">
+        Input number (phone or card)
+    </label>
+    <input id="number-form" name="number" type="text">
+        <fieldset>
+            <legend>Select bank:</legend>
+            <input name="bank" type="radio" value="sber" id="bank-sber">
+            <label for="bank-sber">Sber</label>
+            <input name="bank" type="radio" value="tbank" id="bank-t">
+            <label for="bank-t">T-bank</label>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    <script defer src="./script.js"></script>
+</body>
+</html>
